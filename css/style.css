@@ -31,7 +31,7 @@ body{
 .main-container .top-right-zoom-icons span {
     background-color: #4A4A4A;
     display: inline-block;
-    padding: .1rem .4rem;
+    padding: .2rem .4rem;
     border-radius: 5px;
 }
 
@@ -67,16 +67,44 @@ img{
 }
 
 
-
-
-
-
-
-
-
-
-
 .zoom-buttons{
     height: 8vh;
     background-color: #222222;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.icon{
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 0 1rem;
+    
+}
+.icon .txt{
+    font-size: .8rem;
+}
+.arrow-icon{
+    font-size: .7rem;
+    font-weight: bold;
+    align-self: center;
+}
+.right-button{
+    background-color: #4A4A4A;
+    color:red;
+    height: 100%;
+    
+}
+.meeting{
+    align-self: center;
+    font-size: .8rem;
+    padding: 1rem 1rem;
+}
+#share-icon{
+    color: #47C900;
+}
+.middle-button .icon{
+    padding: 0rem .5rem;
+}
+.middle-button .arrow-icon{
+    padding: 0rem .5rem;
 }
