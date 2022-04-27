@@ -89,13 +89,17 @@ img{
     align-self: center;
 }
 .right-button{
+    position: relative;
     background-color: #4A4A4A;
     color:red;
     height: 100%;
     
 }
 .meeting{
-    align-self: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     font-size: .8rem;
     padding: 1rem 1rem;
 }
