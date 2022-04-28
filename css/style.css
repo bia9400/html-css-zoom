@@ -113,3 +113,13 @@ img{
 .middle-button .arrow-icon{
     padding: 0rem .5rem;
 }
+.zoom-user-img-container .col{
+    position: relative;
+} 
+.zoom-user-img-container  span {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+}
